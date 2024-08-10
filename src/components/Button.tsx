@@ -8,8 +8,7 @@ export const Button = () => {
 
   return (
     <button
-      onClick={onClick}
-      className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`}
+      onClick={onClick}      
     >
       Vite is better than Webpack
     </button>
