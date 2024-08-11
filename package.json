@@ -2,7 +2,7 @@
   "name": "@tugudush/vite-react-ts-button",
   "private": false,
   "repository": "https://github.com/tugudush/vite-react-ts-button",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -26,11 +26,13 @@
     "prepare": "npm run build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.2.4"
+    "react-dom": "^18.2.0"
   },
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },  
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
