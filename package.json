@@ -1,8 +1,8 @@
 {
-  "name": "vite-react-ts-button",
+  "name": "@tugudush/vite-react-ts-button",
   "private": false,
   "repository": "https://github.com/tugudush/vite-react-ts-button",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
